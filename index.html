@@ -36,26 +36,46 @@
 <body>
   <!----------------------------------- rehan: navbar , main section, and form start here   ------------->
 
-  <header class="header">
-    <div class="nav">
-      <div class="tech-logo">
-        <img src="assets/logo.svg" alt="">
-      </div>
-      <div class="time-container">
-        <div class="timer-text">
+  
+  <div class="main-container">
 
-          <p>Time is running out,</p>
-          <p><span> Reserve</span> your seat now!</p>
-        </div>
-        <div class="timer">
-          <input class="hours" id="hours" value="00" readonly />
-          <input class="minutes" id="minutes" value="00" readonly />
-          <input class="seconds" id="seconds" value="00" readonly />
-        </div>
+    <div class="main">
+      <div>
+        <h1>
+          Boost Your Career <br> in <span id="color">Backend</span> and <br>
+          Become a <span id="color"> Pro</span>
+        </h1>
+        <h2>Bonus Upto 24,999/-</h2>
       </div>
-      <div class="reserve-btn" id="reserve-btn" id="scroll-to-payment" onclick="updateCTA('register_seat')">
-        reserve your seat now
-      </div>
+
     </div>
-  </header>
+    <div class="form">
+      <div class="upper">
+        <div class="enter-name">
+          <input type="text" name="enter-name" class="main-input-form" id="enter-name" placeholder="Enter name" />
+
+        </div>
+
+        <div class="mobile-num">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="number-span">+91</span>
+            </div>
+            <input type="number" name="mobile-number" class="main-input-form" id="mobile-number"
+              placeholder="Enter Mobile number" />
+
+          </div>
+        </div>
+
+        <div class="email form-group">
+          <input type="email" name="email" id="email" class="main-input-form" placeholder="Enter Email" required />
+
+        </div>
+
+        <div id="form-btn">
+          <button id="pay-btn" class="form-button">Enroll Now</button>
+
+        </div>
   <!-- navbar endds here -->
+
+ 
